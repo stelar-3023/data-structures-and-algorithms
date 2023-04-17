@@ -14,7 +14,7 @@
 #### 4. BigO
 O(1) - Constant - (ex. int x = 7);
 O(n) - Linear - (ex. Loops);
-O(n^2) - Exponential - (ex. Nested loops)
+O(n<sup>^</sup>2) - Exponential - (ex. Nested loops)
 
 The time complexity of this algorithm is O(n) since we only iterate through the array once. The space complexity is also O(n) since we create a new array to store the reversed elements.
 
