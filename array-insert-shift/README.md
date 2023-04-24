@@ -13,7 +13,9 @@
 -  The time complexity of array-insert-shift in Java is O(n) because we need to shift all the elements after the middle index by one position.
 
 #### 5. PseudoCode
-- function insertShiftArray(arr, val)
+```agsl
+
+function insertShiftArray(arr, val)
     // Determine the middle index
     middleIndex = length of arr divided by 2, rounded down
 
@@ -25,9 +27,11 @@
     arr[middleIndex] = val
 
     return arr
+```
 
 #### 6. Code
-- public static int[] insertShiftArray(int[] arr, int val) {
+```agsl
+public static int[] insertShiftArray(int[] arr, int val) {
     // Determine the middle index
     int middleIndex = arr.length / 2;
 
@@ -41,6 +45,7 @@
 
     return arr;
 }
+```
 
 #### 7. Test
 - To test this function, we can use the following test cases:
