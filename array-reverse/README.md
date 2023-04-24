@@ -15,13 +15,16 @@
 
 
 #### 5. Pseudocode
+```
 function reverseArray(arr):
   newArr = []
   for i = arr.length - 1 to 0:
     newArr.push(arr[i])
   return newArr
+```
 
 #### 6. Code
+```
 public static int[] reverseArray(int[] arr) {
     int[] new_arr = new int[arr.length];
     for (int i = arr.length - 1, j = 0; i >= 0; i--, j++) {
@@ -29,6 +32,7 @@ public static int[] reverseArray(int[] arr) {
     }
     return new_arr;
 }
+```
 
 #### 7. Test
 - To test this function, we can use the following test cases:
